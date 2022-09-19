@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+     <header-app></header-app>
+     <hero-app></hero-app>
+     <!-- <load-view></load-view> -->
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import LoadView from './components/LoadView.vue';
+import HeaderApp from './components/HeaderApp.vue';
+import HeroApp from './components/HeroApp.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // LoadView,
+    HeaderApp,
+    HeroApp
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+  @import './sass/rest';
+  @import './sass/main';
 </style>
