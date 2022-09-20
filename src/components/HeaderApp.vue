@@ -1,5 +1,5 @@
 <template>
- <div class="container py-2" id="nav">
+ <div class="py-2" id="nav" :class="{'active-nav':state.acitvity,' container':state.unacitvity}">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <a class="navbar-brand" href="#"><img src="../assets/logo/logo.svg" alt=""></a>
@@ -33,21 +33,33 @@
 </template>
 
 <script>
-import { reactive } from 'vue'
+import { reactive , onMounted} from 'vue'
 export default {
     name: 'HeaderApp',
     setup() {
 
         const state = reactive({
-            status:false
+          status: false,
+          acitvity: false,
+          unacitvity:true
         })
 
-        function ShowNav() {
+      function ShowNav() {
             state.status = !state.status;
-        } 
+      } 
+      function scroller() {
+        window.addEventListener('scroll', () => {
+          window.scrollY > 20 ? state.acitvity = true : state.acitvity = false;
+          window.scrollY < 20 ? state.unacitvity = true : state.unacitvity = false;
+        })
+      }
+      onMounted(() => {
+        scroller();
+      })
         return {
-            state,
-            ShowNav
+          state,
+          ShowNav,
+          scroller,
         }
     }
 }
