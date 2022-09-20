@@ -11,6 +11,12 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
+## Views
+
+![image-1](https://mostaql.hsoubcdn.com/uploads/thumbnails/844578/6305c9193ea60/1.png)
+![image-2](https://mostaql.hsoubcdn.com/uploads/portfolios/844578/6305c8eb96531/Home.png)
+
+
 
 ## Project setup
 ```
