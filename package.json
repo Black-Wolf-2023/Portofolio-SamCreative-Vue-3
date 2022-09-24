@@ -45,5 +45,17 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "description": "**I made  that this site to offers personal data and skills and this site very good for providing jobs and business and introducing oneself**",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdalrhman8000/Portofolio-SamCreative-Vue-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdalrhman8000/Portofolio-SamCreative-Vue-3/issues"
+  },
+  "homepage": "https://github.com/Abdalrhman8000/Portofolio-SamCreative-Vue-3#readme"
 }
