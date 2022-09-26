@@ -1,7 +1,7 @@
 # Portofolio-SamCreative
 
 ## Details 
-**I made  that this site to offers personal data and skills and this site very good for providing jobs and business and introducing oneself**
+**I made  this site to offers personal data and skills and this site very good for providing jobs and business and introducing oneself**
 
 ## Tools
 
